@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { Link } from 'react-router'
 const Settings = () => {
     
   return (
-    <div className='min-h-screen '>
+    <div className='min-h-screen px-5'>
         <div>
             <div className='flex gap-15 text-[#FFFFFF] text-2xl'>
                 <p>Profile</p>
@@ -19,7 +19,7 @@ const Settings = () => {
             alt="Tailwind CSS Navbar component"
             src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
 
-            <button className="btn bg-linear-to-b from-[#152252] to-[#111B3C] rounded-2xl text-[#FFFFFF] shadow-[#D2EAFF] ">Edit Profile</button>
+            <Link to={'/edit'} className="btn bg-linear-to-b from-[#152252] to-[#111B3C] rounded-2xl text-[#FFFFFF] shadow-[#D2EAFF] ">Edit Profile</Link>
         </div>
         </div>
 

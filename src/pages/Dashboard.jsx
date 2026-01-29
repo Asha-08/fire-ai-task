@@ -22,7 +22,7 @@ const stats = [
 
 const Dashboard = () => {
   return (
-    <div className="p-1 h-full">
+    <div className="px-5 h-full">
       
 
       {/* Grid layout for cards */}

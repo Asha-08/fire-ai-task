@@ -5,7 +5,7 @@ import { RiArrowDropDownFill } from "react-icons/ri";
 
 const CallLogs = () => {
   return (
-    <div>
+    <div className="min-h-screen px-5">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-between">
         <label className="input bg-[#0F172B80] text-[#62748E] border border-[#2B7FFF33]">
           <svg

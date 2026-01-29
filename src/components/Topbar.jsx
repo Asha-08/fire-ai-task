@@ -7,6 +7,7 @@ const pageTitles = {
   "/calls": "Call Logs & History",
   "/appointments": "Appointments",
   "/settings": "Settings",
+  "/edit": "Settings",
 };
 const Topbar = ({ onHamburgerClick }) => {
   const location = useLocation();

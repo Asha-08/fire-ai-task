@@ -6,7 +6,7 @@ import BookingTable from "../components/DasboardComponent/AppoinmentsComponents/
 
 const Appointments = () => {
   return (
-    <div>
+    <div className="min-h-screen px-5">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 lg:grid-cols-3">
         <div className="bg-[#0F172B80] rounded-xl ">
           <p className="flex items-center text-[#90A1B9]  p-4 gap-2 text-sm">
@@ -73,7 +73,7 @@ const Appointments = () => {
         </div>
       </div>
 
-      <div className="bg-[#111B3B] my-4 p-4 border border-[#162F61] rounded-2xl">
+      <div className="">
         <BookingTable></BookingTable>
       </div>
     </div>
